@@ -1,0 +1,20 @@
+#productss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.basket{
+    font-size: 25px;
+}
+.price{
+    display: flex;
+    gap: 25px;
+}
+.price span:first-child{
+    text-decoration-line: line-through;
+}
+body{
+    background-color: #F3F3F3;
+}
